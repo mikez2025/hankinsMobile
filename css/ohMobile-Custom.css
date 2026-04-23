@@ -1,0 +1,713 @@
+/*GOLD 168 126 14 / A87E0E
+BLUE 0 41 95 / 00295F */
+
+@font-face {
+font-family: Garmaond-Regular;
+src: local("Garmaond-Regular;"), url('CormorantGaramond-Regular.ttf') format("truetype"); /* non-IE */
+}
+ @font-face {
+font-family: Garmaond-semi-bold;
+ src: local("Garmaond-semi-bold;"), url('CormorantGaramond-SemiBold.ttf') format("truetype"); /* non-IE */
+}
+@font-face {
+font-family: Garmaond-semi-bold-italic;
+ src: local("Garmaond-semi-bold-italic;"), url('CormorantGaramond-SemiBoldItalic.ttf') format("truetype"); /* non-IE */
+}
+body {
+	font-family: Garmaond-semi-bold;
+	font-size: 1.2em;
+	font-weight: normal;
+	color: #000;
+	margin: 0;
+	max-width:400px;
+}
+#theLogo {
+	width:90%;
+	margin-top:25px;
+}
+#theMenuBut {
+	position:absolute;
+	float:right;
+	top:5px;
+	right:5px;
+	padding:0;
+	color:#00295F !important;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+	font-size:30px !important;
+	width:80px;
+}
+.fa-instagram {
+	background: #125688;
+	color: white;
+	font-size:30px !important;
+	width:80px;
+}
+img {
+	width:100%;
+	vertical-align: middle;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+.w3-container, .w3-panel {
+	margin-top:15px;
+}
+.w3-center h1 {
+	text-align:left;
+	margin-top:15px;
+	font-family: Montserrat-Reg;
+	color: #76551F;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+.w3-center ul {
+	position:relative;
+	float:left;
+	width:100%;
+		margin:0;
+	padding:0;
+}
+.w3-center h6 {
+	text-align:left;
+	margin-top:0;
+}
+a.btn {
+	font-size: 1.0em;
+	text-decoration: none;
+	color: #FFF;
+	background-color:#76551F;
+	padding: 6px 6px;
+ transition: background-color .5s;
+	text-transform: uppercase;
+	font-family: Montserrat-Reg;
+	text-align:left;
+}
+a.btn:hover {
+	background-color: rgba(78, 106, 123, .3);
+}
+.w3-center li {
+	text-align: left !important;
+	list-style:none;
+}
+.w3-center p {
+    text-align: left !important;
+}
+#mySidebar a {
+	text-align:left;
+}
+#mySidebar button {
+	position:absolute;
+	top:0;
+	right:0;
+	text-align:left;
+	font-size:.7em;
+	width:175px;
+}
+nav {
+ z-index:99;
+}
+nav ul {
+	font-size:.7em;
+	margin-top:45px !important;
+}
+nav li {
+	list-style:none;
+	margin-left:25px;
+}
+nav li a {
+	text-transform:uppercase;
+	list-style:none;
+}
+nav li:before {
+	padding-right: 8px;
+}
+footer img {
+	width:100%;
+}
+#theArrowDN {
+	width:28px;
+}
+footer p {
+	position:relative;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.SocialGroup2 {
+	position:relative;
+	float:right;
+	width:130px;
+	margin-top:35px;
+}
+.card {
+	width: 28px;
+	height: 28px;
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+}
+.card img {
+	width:25px;
+}
+.card img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.w3-btn, .w3-button {
+	font-size:12px;
+}
+/* --------------------------------------------  HomeText*/
+
+section.DataRow2 aside.HomeText {
+	position:relative;
+	float:none;
+	clear:both;
+	width:100%;
+	padding-top:2px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 2px;
+	margin-left: auto;
+}
+.picDiv {
+	position: relative;
+	float: left;
+	width:40%;
+	padding:0;
+}
+.bodyDiv {
+	position: relative;
+	float: left;
+	width:50%;
+	margin-top:50px;
+}
+section.DataRow2 aside.HomeText img {
+	/*	border: 1px solid #efefef;
+	box-shadow: 1px 1px 5px #999;*/
+	display: block;
+	float: left;
+	margin: 20px;
+	margin-left:0px;
+	padding: 5px;
+	position: relative;
+	width: 500px;
+}
+section.DataRow2 aside.HomeText h2 {
+	position: relative;
+	float: left;
+	width:230px;
+	margin-top:35px;
+	color:#8DC63F;
+	font-size: 2.5em;
+}
+section.DataRow2 aside.HomeText span {
+	position: relative;
+	float: left;
+	margin-top:38px;
+	color:#000;
+	font-size: 1.8em;
+}
+section.DataRow2 aside.HomeText p {
+	position: relative;
+	float: left;
+	width:100%;
+	text-align: left;
+	padding: 6px;
+	padding-left:0;
+	font-size: 1.6em;
+	margin:0px;
+	color: #00295F;
+}
+.theListHeader {
+	position: relative;
+	float: left;
+	width:auto;
+	font-family: Garmaond-semi-bold;
+	font-size:1.4em;
+	text-align:left;
+	border-bottom: #A87E0E thin solid;
+	text-transform:uppercase;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+section.DataRow2 aside.HomeText ul {
+	position: relative;
+	float: left;
+	width:100%;
+	padding-left:0;
+	margin-left:0;
+}
+section.DataRow2 aside.HomeText li {
+	float: left;
+	list-style: outside none none;
+	width: 100%;
+	font-size: 1.2em;
+	font-family: Garmaond-Regular;
+	margin-left:0;
+}
+section.DataRow2 aside.HomeText li a {
+	text-decoration:none;
+	padding-bottom:5px;
+}
+section.DataRow2 aside.HomeText li a:hover {
+	color: #666;
+}
+section.DataRow2 aside.HomeText h3 {
+	position: relative;
+	float: left;
+	margin-top:0px;
+	width:100%;
+	font-size: 1.4em;
+}
+.thePracList ul {
+	margin:0;
+	padding:0;
+	font-size: 1.1em;
+}
+.thePracList li {
+	text-transform:capitalize;
+	margin-left:0!important;
+	list-style:none;
+}
+.thePracList li a {
+	text-decoration:none;
+	
+}
+/* --------------------------------------------  thePeopleView*/
+
+section.DataRow2 aside.thePeopleView {
+	position:relative;
+	float:none;
+	clear:both;
+	width:100%;
+	padding-top:2px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 2px;
+	margin-left: auto;
+}
+.ThePhoto {
+	position: relative;
+	float: left;
+	padding:0;
+	text-align:left;
+}
+.TheDetails {
+	position: relative;
+	float: left;
+	width:100%;
+}
+.theBioName {
+	position: relative;
+	float: left;
+	width:100%;
+	font-family: Garmaond-semi-bold;
+	font-size:1.3em;
+	text-align:left;
+	margin-top:5px;
+}
+.TheBioTitle {
+	position: relative;
+	float: left;
+	width:100%;
+	font-family: Garmaond-semi-bold-italic;
+	font-size:1.2em;
+	text-align:left;
+}
+.TheBioTag {
+	position: relative;
+	float: left;
+	width:100%;
+}
+#thevitae {
+	width:100%;
+	position: relative;
+	float: left;
+	font-family: Garmaond-semi-bold-italic;
+	font-size:1.2em;
+	text-align:left;
+	margin-bottom:20px;
+	margin-top:0;
+	padding:0 !important;
+}
+.TheBioTag p a {
+	width:auto;
+	position: relative;
+	float: left;
+	font-family: Garmaond-semi-bold-italic;
+	font-size:1.2em;
+	text-align:left;
+	margin-bottom:0px;
+	margin-top:10px;
+	padding:0 !important;
+}
+.TheBioDetails {
+	position: relative;
+	float: left;
+	width:100%;
+	margin-top:0;
+}
+section.DataRow2 aside.thePeopleView img {
+	display: block;
+	float: left;
+	margin-right: 20px;
+	padding: 0;
+	position: relative;
+	width: 205px;
+}
+section.DataRow2 aside.thePeopleView p {
+	position: relative;
+	float: left;
+	width:100%;
+	text-align: left;
+	padding: 6px;
+	font-size: 1.0em;
+	margin:0px;
+	color: #00295F;
+}
+#theNumber {
+		position: relative;
+	float: left;
+		width:100%;
+	margin-top:-5px;
+	padding-top:0;
+}
+section.DataRow2 aside.thePeopleView .theDetailsHeaders {
+	position: relative;
+	float: left;
+	width:auto;
+	font-family: Garmaond-semi-bold;
+	font-size:1.0em;
+	text-align:left;
+	padding-right:3px;
+	margin-bottom:5px;
+	text-transform: uppercase;
+	border-bottom: #A87E0E thin solid;
+}
+section.DataRow2 aside.thePeopleView ul {
+	position: relative;
+float: left;
+width: 100%;
+margin: 0;
+    margin-bottom: 0px;
+padding: 0;
+margin-bottom: 15px;
+}
+section.DataRow2 aside.thePeopleView li {
+	float: left;
+	list-style: outside none none;
+	width: 100%;
+	font-size: 1.0em;
+	font-family: Garmaond-Regular;
+	margin-left:3px;
+}
+section.DataRow2 aside.thePeopleView li a {
+	text-decoration:none;
+	padding-bottom:5px;
+}
+section.DataRow2 aside.thePeopleView li a:hover {
+	color: #666;
+}
+/* --------------------------------------------  thePracticeView*/
+section.DataRow2 aside.thePracticeView {
+	position:relative;
+	float:left;
+	clear:both;
+	width:100%;
+	padding-top:2px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+.TheDetails {
+	position: relative;
+	float: left;
+	width:100%;
+}
+.ThePracHd {
+	position: relative;
+	float: left;
+	width:100%;
+	font-family: Garmaond-bold;
+	font-size:1.2em;
+	text-align:left;
+	margin-top:15px;
+	text-transform:uppercase;
+}.ThePracText {
+	position: relative;
+	float: left;
+	width:100%;
+	font-family: Garmaond-Regular;
+	font-size:1.0em;
+	text-align:left;
+}
+.thePracListHeader {
+	position: relative;
+	float: left;
+	width:100%;
+	font-style:italic;
+	font-family: Garmaond-semi-bold;
+	font-size:1.2em;
+	text-align:left;
+	margin-top:25px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.thePracticeName {
+	position: relative;
+	float: left;
+	width:100%;
+	font-family: Garmaond-semi-bold;
+	font-size:1.2em;
+	text-align:left;
+}
+section.DataRow2 aside.thePracticeView img {
+	/*	border: 1px solid #efefef;
+	box-shadow: 1px 1px 5px #999;*/
+	display: block;
+	float: left;
+	margin-right: 20px;
+	padding: 0;
+	position: relative;
+	width: 500px;
+}
+section.DataRow2 aside.thePracticeView p {
+	position: relative;
+	float: left;
+	width:100%;
+	text-align: left;
+	padding: 6px;
+	padding-left:0px;
+	font-size: 1.0em;
+	margin:0px;
+	color: #00295F;
+}
+.theDetailsHeaders {
+	position: relative;
+	float: left;
+	width:auto;
+	font-family: Garmaond-semi-bold;
+	font-size:1.0em;
+	text-align:left;
+	padding-right:3px;
+	margin-bottom:10px;
+		margin-top:10px;
+	text-transform: uppercase;
+	border-bottom: #A87E0E thin solid;
+}
+section.DataRow2 aside.thePracticeView ul {
+	position: relative;
+	float: left;
+	width:100%;
+	margin:0;
+	padding:0;
+	margin-bottom:15px;
+}
+section.DataRow2 aside.thePracticeView li {
+	float: left;
+	list-style: outside none none;
+	width: 100%;
+	font-size: 1.0em;
+	font-family: Garmaond-bold;
+	margin-left:3px;
+}
+section.DataRow2 aside.thePracticeView li a {
+	text-decoration:none;
+	padding-bottom:5px;
+}
+section.DataRow2 aside.thePracticeView li a:hover {
+	color: #666;
+}
+/* --------------------------------------------  Location*/
+
+section.DataRow2 aside.Location {
+	position:relative;
+	float:none;
+	clear:both;
+	width:100%;
+	padding-top:2px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 2px;
+	margin-left: auto;
+}
+section.DataRow2 aside.Location img {
+	display: block;
+	float: left;
+	margin: 20px;
+	margin-left:0px;
+	padding: 5px;
+	position: relative;
+	width: 500px;
+}
+section.DataRow2 aside.Location ul {
+	position: relative;
+	float: left;
+	width:100%;
+	margin-top:0px;
+	margin-bottom:30px;
+	padding:0;
+	list-style:none;
+}
+section.DataRow2 aside.Location li {
+	line-height:30px;
+}
+section.DataRow2 aside.Location .picDivLC {
+	float:left;
+	margin-right:30px;
+	margin-bottom:35px;
+	padding:0;
+}
+section.DataRow2 aside.Location p {
+	font-size: 1.3em;
+}
+/*------------------------------------------------------ location details*/
+.bodyDivLC {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+.TheLocationDetails {
+	position: relative;
+	float: left;
+	width:100%;
+	margin-top:15px;
+	text-align:left;
+}
+.theLocLink {
+	color:#A87E0E;
+	font-weight:bold;
+	text-decoration:none;
+}
+.theLocLink a:visited {
+	color:#A87E0E;
+}
+.theLocLinkck {
+	color:#00295F;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.theLocLinkck a:visited {
+	color:#00295F;
+}
+.TheLocDes {
+	position: relative;
+	float: left;
+	width:100%;
+	color:#A87E0E;
+}
+.TheLocName {
+	position: relative;
+	float: left;
+	width:100%;
+	font-weight:bold;
+}
+.TheLocAdd1 {
+	position: relative;
+	float: left;
+	width:100%;
+}
+.TheLocAdd2 {
+	position: relative;
+	float: left;
+	width:100%;
+}
+.TheLocCiSt {
+	position: relative;
+	float: left;
+	width:100%;
+}
+.TheLocPhone {
+	position: relative;
+	float: left;
+	width:100%;
+}
+.theLocFx {
+	position: relative;
+	float: left;
+	width:100%;
+}
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+.mySlides img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
